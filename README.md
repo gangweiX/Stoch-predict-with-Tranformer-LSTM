@@ -27,6 +27,7 @@ Plot
 ======
 To plot the figure of stoch predict,you can run  
 ------------
-    python3 plot.py
+    python3 plot.py  
+    ！[image](https://github.com/gangweiX/stoch-predict-with-Tranformer-LSTM/blob/main/plot_figure/model_transformer-lstm.png)  
     
     
