@@ -1,5 +1,5 @@
 # stoch-predict-with-Tranformer-LSTM
-stock predict with MLP,CNN,RNN,LSTM,Transformer and Transformer-LSTM
+stock predict with MLP,CNN,RNN,LSTM,Transformer and Transformer-LSTM  
 Environment
 ============
     1.Python 3.8  
