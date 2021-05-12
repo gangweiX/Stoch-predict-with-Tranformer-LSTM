@@ -51,12 +51,14 @@ def main():
 	###if MLP,CNN,batch_size = 1
 	train_loader = DataLoader(dataset_train, batch_size=64, shuffle=True)
 	test_loader = DataLoader(dataset_test, batch_size=64, shuffle=False)
+	####################################################################
 	# model is one of MLP,CNN,RNN,LSTM,Transformer
 	#model = MLP()
 	#model = CNN()
 	model = RNN(rnn_layer=2, input_size=1, hidden_size=4)
 	#model = LSTM(lstm_layer=2, input_dim=1, hidden_size=8)
 	#model = Transformer(feature_size=64, num_layers=4, dropout=0.1)
+	####################################################################
 	optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 	total_epoch = 200
 	for epoch_idx in range(total_epoch):
