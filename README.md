@@ -17,7 +17,8 @@ The code has been tested with PyTorch 1.8 and Cudatoolkit 11.1.
     pip3 install pandas  
     pip3 install matplotlib  
     pip3 install tqdm  
-    pip3 install tensorboardX  
+    pip3 install tensorboardX 
+    pip3 install opencv-python
 Train/evaluate
 =============
 To train and evaluate our model, you can run  
